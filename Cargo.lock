@@ -3,6 +3,15 @@
 version = 3
 
 [[package]]
+name = "casper-serde-json-wasm"
+version = "0.4.1"
+dependencies = [
+ "serde",
+ "serde_derive",
+ "serde_json",
+]
+
+[[package]]
 name = "itoa"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -37,15 +46,6 @@ name = "serde"
 version = "1.0.136"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ce31e24b01e1e524df96f1c2fdd054405f8d7376249a5110886fb4b658484789"
-
-[[package]]
-name = "serde-json-wasm"
-version = "0.4.1"
-dependencies = [
- "serde",
- "serde_derive",
- "serde_json",
-]
 
 [[package]]
 name = "serde_derive"
